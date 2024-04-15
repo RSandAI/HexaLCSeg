@@ -34,7 +34,7 @@ Dataset and Weights
 | DeepLabv3+ Resnext-50_32x_4d                 | 92.85  | 92.83 |[weights](https://drive.google.com)                |
 | DeepLabv3+ Resnext-50_32x_4d                 | 92.85  | 92.83 |[weights](https://drive.google.com)                |
 
-The dataset and the weights can be found [here](https://drive.google.com/drive/folders/1a2FPc1-itu1V9_Q4n9aaWB4GV9MGeOqh?usp=sharing).
+The dataset and the weights can be found [here](https://drive.google.com).
 
 
 
