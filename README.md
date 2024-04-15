@@ -26,11 +26,11 @@ Models, Metric Results and Weights
 ---------------------
 | Architecture | Loss Function | Augmentation | F-1 Score | IoU | Weights |
 |:------------------:|-------------------------:|-------------------------:| -------------------------:| -------------------------:| -------------------------:|
-| DeepLabv3+ |x | y | 94.35 | 89.46 |[weights](https://drive.google.com)|
-| DeepLabv3+ |x | y | 94.35 | 89.46 |[weights](https://drive.google.com)|
-| DeepLabv3+ |x | y | 94.35 | 89.46 |[weights](https://drive.google.com)|
-| DeepLabv3+ |x | y | 94.35 | 89.46 |[weights](https://drive.google.com)|
-| DeepLabv3+ |x | y | 94.35 | 89.46 |[weights](https://drive.google.com)|
+| Unet++ | Focal Loss | No Aug | 94.35 | 89.46 |[weights](https://drive.google.com)|
+| Unet++ | Focal Loss | HFlip | 94.35 | 89.46 |[weights](https://drive.google.com)|
+| DeepLabv3+ | Focal Loss | No Aug | 94.35 | 89.46 |[weights](https://drive.google.com)|
+| Unet++ | Focal Loss | Random BC | 94.35 | 89.46 |[weights](https://drive.google.com)|
+| DeepLabv3+ | Dice Loss | HFlip | 94.35 | 89.46 |[weights](https://drive.google.com)|
 
 The dataset and the weights can be found [here](https://drive.google.com).
 
