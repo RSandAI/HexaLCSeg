@@ -23,11 +23,11 @@ Dataset and Weights
 ---------------------
 | Model | F-1 Score | IoU | Weights |
 |:------------------:|-------------------------:|-------------------------:| -------------------------:|
-| DeepLabv3+ Resnext-50_32x_4d             | 94.35  | 89.46 |[weights](https://drive.google.com)                   |
-| DeepLabv3+ Resnext-50_32x_4d                | 94.35  | 89.46 |[weights](https://drive.google.com)                 |
-| DeepLabv3+ Resnext-50_32x_4d                 | 94.35  | 89.46 |[weights](https://drive.google.com)                |
-| DeepLabv3+ Resnext-50_32x_4d                 | 94.35  | 89.46 |[weights](https://drive.google.com)                |
-| DeepLabv3+ Resnext-50_32x_4d                 | 94.35  | 89.46 |[weights](https://drive.google.com)                |
+| DeepLabv3+ Resnext-50_32x_4d | 94.35  | 89.46 |[weights](https://drive.google.com)|
+| DeepLabv3+ Resnext-50_32x_4d | 94.35  | 89.46 |[weights](https://drive.google.com)|
+| DeepLabv3+ Resnext-50_32x_4d | 94.35  | 89.46 |[weights](https://drive.google.com)|
+| DeepLabv3+ Resnext-50_32x_4d | 94.35  | 89.46 |[weights](https://drive.google.com)|
+| DeepLabv3+ Resnext-50_32x_4d | 94.35  | 89.46 |[weights](https://drive.google.com)|
 
 The dataset and the weights can be found [here](https://drive.google.com).
 
