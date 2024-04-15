@@ -11,14 +11,9 @@ Additionally, a new sub-class for the trees, named Permanent Cropland is defined
 The dataset, related source code, and pre-trained models are available below.
 
 
-Aim
----------------------
-
-In this research, 
-
 Methodology
 ---------------------
-The framework of this study is detailed as follow. 
+In our study, we employed the geographic object-based image analysis (GEOBIA) approach to generate accurate land cover (LC) maps, which serve as the ground truth masks for our dataset. 
 
 
 
