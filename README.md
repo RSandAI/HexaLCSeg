@@ -24,13 +24,13 @@ For deep learning-based image segmentation, we employed a total of 9 CNN models,
 
 Models, Metric Results and Weights
 ---------------------
-| Model | F-1 Score | IoU | Weights |
-|:------------------:|-------------------------:|-------------------------:| -------------------------:|
-| DeepLabv3+ Resnext-50_32x_4d | 94.35  | 89.46 |[weights](https://drive.google.com)|
-| DeepLabv3+ Resnext-50_32x_4d | 94.35  | 89.46 |[weights](https://drive.google.com)|
-| DeepLabv3+ Resnext-50_32x_4d | 94.35  | 89.46 |[weights](https://drive.google.com)|
-| DeepLabv3+ Resnext-50_32x_4d | 94.35  | 89.46 |[weights](https://drive.google.com)|
-| DeepLabv3+ Resnext-50_32x_4d | 94.35  | 89.46 |[weights](https://drive.google.com)|
+| Architecture | Loss Function | Augmentation | F-1 Score | IoU | Weights |
+|:------------------:|-------------------------:|-------------------------:| -------------------------:| -------------------------:| -------------------------:|
+| DeepLabv3+ Resnext-50_32x_4d |x | y | 94.35  | 89.46 |[weights](https://drive.google.com)|
+| DeepLabv3+ Resnext-50_32x_4d |x | y | 94.35  | 89.46 |[weights](https://drive.google.com)|
+| DeepLabv3+ Resnext-50_32x_4d |x | y | 94.35  | 89.46 |[weights](https://drive.google.com)|
+| DeepLabv3+ Resnext-50_32x_4d |x | y | 94.35  | 89.46 |[weights](https://drive.google.com)|
+| DeepLabv3+ Resnext-50_32x_4d |x | y | 94.35  | 89.46 |[weights](https://drive.google.com)|
 
 The dataset and the weights can be found [here](https://drive.google.com).
 
