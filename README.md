@@ -9,32 +9,34 @@ Aim
 
 In this research, 
 
-Framework
+Methodology
 ---------------------
 The framework of this study is detailed as follow. 
 
 
 
-LULC classes used in this study
+Land Cover (LC) classes used in this study
 ----------------------
 ![alt text](LULCclasses.jpg)
-
-Sample Outputs
----------------------
-![alt text](outputs_0.png)
-![alt text](outputs_1.png)
 
 Dataset and Weights
 ---------------------
 | Model | F-1 Score | IoU | Weights |
 |:------------------:|-------------------------:|-------------------------:| -------------------------:|
 | DeepLabv3+ Resnext-50_32x_4d             | 94.35  | 89.46 |[weights](https://drive.google.com)                   |
-| DeepLabv3+ Resnext-50_32x_4d                | 89.65  | 89.76 |[weights](https://drive.google.com)                 |
-| DeepLabv3+ Resnext-50_32x_4d                 | 92.85  | 92.83 |[weights](https://drive.google.com)                |
-| DeepLabv3+ Resnext-50_32x_4d                 | 92.85  | 92.83 |[weights](https://drive.google.com)                |
-| DeepLabv3+ Resnext-50_32x_4d                 | 92.85  | 92.83 |[weights](https://drive.google.com)                |
+| DeepLabv3+ Resnext-50_32x_4d                | 94.35  | 89.46 |[weights](https://drive.google.com)                 |
+| DeepLabv3+ Resnext-50_32x_4d                 | 94.35  | 89.46 |[weights](https://drive.google.com)                |
+| DeepLabv3+ Resnext-50_32x_4d                 | 94.35  | 89.46 |[weights](https://drive.google.com)                |
+| DeepLabv3+ Resnext-50_32x_4d                 | 94.35  | 89.46 |[weights](https://drive.google.com)                |
 
 The dataset and the weights can be found [here](https://drive.google.com).
+
+
+Sample Outputs
+---------------------
+![alt text](outputs_0.png)
+![alt text](outputs_1.png)
+
 
 
 
