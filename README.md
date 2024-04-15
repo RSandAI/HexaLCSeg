@@ -5,9 +5,6 @@ This study aims to emphasize the importance of historical land cover maps and in
 The HexaLCSeg dataset comprises eight panchromatic images accompanied by corresponding 3-channel RGB Ground Truth Masks, all with 8-bit radiometric resolution and a spatial resolution of 1 meter. The dataset is organized into a total of 10,000 patches, each sized at 256x256 pixels. 
 We split our dataset into 70% training (7000 patches), 15% validation (1500 patches), and 15% testing (1500 patches). 
 
-Our dataset is inspired by the European Space Agency (ESA) WorldCover project and includes eight LC classes and related RGB codes were set for each class but we adjusted 0-pixel value as no data and replace the 0 values with 1 in ESA RGB code palette.
-Additionally, a new sub-class for the trees, named Permanent Cropland is defined and its RGB code was set to 1-207-117. This class is important to differentiate permanent fruit trees from other trees, specifically crucial for past agricultural mapping purposes.
-
 The dataset, related source code, and pre-trained models are available below.
 
 
@@ -18,11 +15,15 @@ In our study, we employed the geographic object-based image analysis (GEOBIA) ap
 For deep learning-based image segmentation, we employed a total of 9 CNN models, implementing U-Net++ and DeepLabv3+ segmentation architectures with different hyperparameters, paired with SE-ResNeXt50 backbone that pre-trained with weight values from the 2012 ILSVRC ImageNet dataset.
 
 
-Land Cover (LC) classes used in this study
+Land Cover (LC) Classes Used In This Study
 ----------------------
+
+Our dataset is inspired by the European Space Agency (ESA) WorldCover project and includes eight LC classes and related RGB codes were set for each class but we adjusted 0-pixel value as no data and replace the 0 values with 1 in ESA RGB code palette.
+Additionally, a new sub-class for the trees, named Permanent Cropland is defined and its RGB code was set to 1-207-117. This class is important to differentiate permanent fruit trees from other trees, specifically crucial for past agricultural mapping purposes.
+
 ![alt text](LULCclasses.jpg)
 
-Dataset and Weights
+Models, Metric Results and Weights
 ---------------------
 | Model | F-1 Score | IoU | Weights |
 |:------------------:|-------------------------:|-------------------------:| -------------------------:|
