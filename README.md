@@ -7,14 +7,6 @@ We split our dataset into 70% training (7000 patches), 15% validation (1500 patc
 
 The dataset, related source code, and pre-trained models are available below.
 
-
-Methodology
----------------------
-In our study, we employed the geographic object-based image analysis (GEOBIA) approach to generate accurate land cover (LC) maps, which serve as the ground truth masks for our dataset. 
-
-For deep learning-based image segmentation, we employed a total of 9 CNN models, implementing U-Net++ and DeepLabv3+ segmentation architectures with different hyperparameters, paired with SE-ResNeXt50 backbone that pre-trained with weight values from the 2012 ILSVRC ImageNet dataset.
-
-
 Land Cover (LC) Classes Used In This Study
 ----------------------
 
@@ -22,6 +14,13 @@ Our dataset is inspired by the European Space Agency (ESA) WorldCover project an
 Additionally, a new sub-class for the trees, named Permanent Cropland is defined and its RGB code was set to 1-207-117. This class is important to differentiate permanent fruit trees from other trees, specifically crucial for past agricultural mapping purposes.
 
 ![alt text](LULCclasses.jpg)
+
+Methodology
+---------------------
+In our study, we employed the geographic object-based image analysis (GEOBIA) approach to generate accurate land cover (LC) maps, which serve as the ground truth masks for our dataset. 
+
+For deep learning-based image segmentation, we employed a total of 9 CNN models, implementing U-Net++ and DeepLabv3+ segmentation architectures with different hyperparameters, paired with SE-ResNeXt50 backbone that pre-trained with weight values from the 2012 ILSVRC ImageNet dataset.
+
 
 Models, Metric Results and Weights
 ---------------------
