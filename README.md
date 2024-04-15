@@ -7,7 +7,5 @@ The dataset, related source code, and pretrained models are available below.
 Aim
 ---------------------
 
-In this research, 
 
-The dataset and the weights can be found [here](https://drive.google.com/drive).
 
