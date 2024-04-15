@@ -15,7 +15,7 @@ Methodology
 ---------------------
 In our study, we employed the geographic object-based image analysis (GEOBIA) approach to generate accurate land cover (LC) maps, which serve as the ground truth masks for our dataset. 
 
-For deep learning-based image segmentation, we employed a total of 9 CNN models, implementing U-Net++ and DeepLabv3+ segmentation architectures, paired with SE-ResNeXt50 backbone that pre-trained with weight values from the 2012 ILSVRC ImageNet dataset.
+For deep learning-based image segmentation, we employed a total of 9 CNN models with different hyperparameters, implementing U-Net++ and DeepLabv3+ segmentation architectures, paired with SE-ResNeXt50 backbone that pre-trained with weight values from the 2012 ILSVRC ImageNet dataset.
 
 
 Land Cover (LC) classes used in this study
