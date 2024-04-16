@@ -1,3 +1,4 @@
+
 # HexaLCSeg Benchmark Dataset
 
 This study aims to emphasize the importance of historical land cover maps and introduce a new benchmark dataset derived from very high-resolution historical Hexagon (KH-9) reconnaissance satellite images for use in deep learning-based image segmentation tasks. Our HexaLCSeg dataset comprises high-resolution monochromatic Hexagon images from the 1970s and 1980s covering Turkish and Bulgarian territories, encompassing a large geographic area
@@ -6,6 +7,7 @@ The HexaLCSeg dataset comprises eight panchromatic images accompanied by corresp
 We split our dataset into 70% training (7000 patches), 15% validation (1500 patches), and 15% testing (1500 patches). 
 
 The dataset, related source code, and pre-trained models are available below.
+
 
 Land Cover (LC) Classes Used In This Study
 ----------------------
@@ -29,17 +31,17 @@ Models, Metric Results and Weights
 
 | Model No     | Architecture | Loss Function | Augmentation | Loss   | Accuracy | IoU    | F-1 Score | Precision | Recall  | Weights                               |
 |:------------:|:------------:|:-------------:|:------------:|:------:|:--------:|:------:|:---------:|:---------:|:-------:|:-------------------------------------:|
-|   Model 1    |   U-Net++    |  Focal Loss   |    No Aug    | 0.1252 |  0.9734  | 0.8052 |   0.8804  |   0.8805  | 0.8803  | [click](https://drive.google.com)   |
-|   Model 2    |   U-Net++    |  Focal Loss   |    HFlip     | 0.1253 |  0.9728  | 0.8008 |   0.8776  |   0.8778  | 0.8774  | [click](https://drive.google.com)   |
-|   Model 3    | DeepLabv3+   |  Focal Loss   |    No Aug    | 0.1255 |  0.9720  | 0.7959 |   0.8739  |   0.8744  | 0.8734  | [click](https://drive.google.com)   |
-|   Model 4    |   U-Net++    |  Focal Loss   |  Random BC   | 0.1256 |  0.9717  | 0.7938 |   0.8725  |   0.8727  | 0.8723  | [click](https://drive.google.com)   |
-|   Model 5    | DeepLabv3+   |   Dice Loss   |    HFlip     | 0.1292 |  0.9714  | 0.7928 |   0.8714  |   0.8717  | 0.8711  | [click](https://drive.google.com)   |
+|   Model 1    |   U-Net++    |  Focal Loss   |    No Aug    | 0.1252 |  0.9734  | 0.8052 |   0.8804  |   0.8805  | 0.8803  | ***[download](https://drive.google.com)***  |
+|   Model 2    |   U-Net++    |  Focal Loss   |    HFlip     | 0.1253 |  0.9728  | 0.8008 |   0.8776  |   0.8778  | 0.8774  | ***[download](https://drive.google.com)***  |
+|   Model 3    | DeepLabv3+   |  Focal Loss   |    No Aug    | 0.1255 |  0.9720  | 0.7959 |   0.8739  |   0.8744  | 0.8734  | ***[download](https://drive.google.com)***   |
+|   Model 4    |   U-Net++    |  Focal Loss   |  Random BC   | 0.1256 |  0.9717  | 0.7938 |   0.8725  |   0.8727  | 0.8723  | ***[download](https://drive.google.com)***   |
+|   Model 5    | DeepLabv3+   |   Dice Loss   |    HFlip     | 0.1292 |  0.9714  | 0.7928 |   0.8714  |   0.8717  | 0.8711  | ***[download](https://drive.google.com)***   |
 
-The dataset and the weights can be found [here](https://drive.google.com).
+***The dataset and the weights can be found [here](https://drive.google.com).***
 
 Sample Outputs
 ---------------------
-Original images, ground truth masks and prediction masks of our 5 best models are given below.
+Original images, ground truth masks and prediction masks of our 5 best models are below.
 
 <br>
 
@@ -50,14 +52,18 @@ Original images, ground truth masks and prediction masks of our 5 best models ar
 
 
 
-System-specific notes
+System-specific notes and configuration
 ---------------------
-The code was implemented in Python(3.8) and PyTroch(1.14.0) on Windows OS. The *segmentation models pytorch* library is used as a baseline for implementation. Apart from main data science libraries, RS-specific libraries such as GDAL, rasterio, and tifffile are also required.
+The code was implemented in Python (3.10) and PyTorch (2.1.2). 
+
+The *segmentation models pytorch* (0.3.3) and *Albumentations* (1.4.0) was used.
+
+Apart from main data science libraries, RS-specific libraries such as GDAL, rasterio, and tifffile are also required.
 
 
 Citation
 ---------------------
-Please kindly cite our paper if this code and the dataset used in the study is useful for your research.
+Please kindly cite our paper if this code and the dataset used in the study are useful for your research.
 
 Sertel, E., Kabadayı, M.E, Sengul, G. S. & Tumer, I. N, (2024). HexaLCSeg: A Historical Benchmark Dataset from Hexagon Satellite Images for Land Cover Segmentation, IEEE Geoscience and Remote Sensing Magazine, Accepted.
 
