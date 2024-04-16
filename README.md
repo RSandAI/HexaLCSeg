@@ -13,6 +13,8 @@ Land Cover (LC) Classes Used In This Study
 Our dataset is inspired by the European Space Agency (ESA) WorldCover project and includes eight LC classes and related RGB codes were set for each class but we adjusted the 0-pixel value as no data and replaced the 0 values with 1 in the ESA RGB code palette.
 Additionally, a new sub-class for the trees, named Permanent Cropland is defined and its RGB code was set to 1-207-117. This class is important to differentiate permanent fruit trees from other trees, specifically crucial for past agricultural mapping purposes.
 
+<br>
+
 ![alt text](LC_Classes.png)
 
 Methodology
