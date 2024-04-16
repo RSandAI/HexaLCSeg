@@ -37,8 +37,8 @@ The dataset and the weights can be found [here](https://drive.google.com).
 
 Sample Outputs
 ---------------------
-![alt text](outputs_0.png)
-![alt text](outputs_1.png)
+![alt text](Predictions.png)
+
 
 
 
