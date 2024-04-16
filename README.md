@@ -25,7 +25,7 @@ For deep learning-based image segmentation, we employed a total of 9 CNN models,
 Models, Metric Results and Weights
 ---------------------
 | Architecture | Loss Function | Augmentation | Loss | Accuracy | IoU | F-1 Score | Precision | Recall | Weights |
-|:------------------:|-------------------------:|-------------------------:| -------------------------:| -------------------------:| -------------------------:|
+|:------------------:|-------------------------:|-------------------------:| -------------------------:| -------------------------:| -------------------------:| -------------------------:| -------------------------:| -------------------------:| -------------------------:|
 | Unet++ | Focal Loss | No Aug | 0.1252 | 0.9734 | 0.8052 | 0.8804 | 0.8805 | 0.8803 | [weights](https://drive.google.com)|
 | Unet++ | Focal Loss | HFlip | 0.1253 | 0.9728 | 0.8008 | 0.8776 | 0.8778 | 0.8774 | [weights](https://drive.google.com)|
 | DeepLabv3+ | Focal Loss | No Aug | 0.1255 | 0.9720 | 0.7959 | 0.8739 | 0.8744 | 0.8734 | [weights](https://drive.google.com)|
