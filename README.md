@@ -1,4 +1,4 @@
-# HexaLCSeg Benchmark Dataset
+![image](https://github.com/RSandAI/HexaLCSeg/assets/152481826/0b25ff7e-40b2-45db-afd5-d3d28404a96b)# HexaLCSeg Benchmark Dataset
 
 This study aims to emphasize the importance of historical land cover maps and introduce a new benchmark dataset derived from very high-resolution historical Hexagon (KH-9) reconnaissance satellite images for use in deep learning-based image segmentation tasks. Our HexaLCSeg dataset comprises high-resolution monochromatic Hexagon images from the 1970s and 1980s covering Turkish and Bulgarian territories, encompassing a large geographic area
 
@@ -24,13 +24,13 @@ For deep learning-based image segmentation, we employed a total of 9 CNN models,
 
 Models, Metric Results and Weights
 ---------------------
-| Architecture | Loss Function | Augmentation | F-1 Score | IoU | Weights |
+| Architecture | Loss Function | Augmentation | Loss | Accuracy | IoU | F-1 Score | Precision | Recall | Weights |
 |:------------------:|-------------------------:|-------------------------:| -------------------------:| -------------------------:| -------------------------:|
-| Unet++ | Focal Loss | No Aug | 94.35 | 89.46 |[weights](https://drive.google.com)|
-| Unet++ | Focal Loss | HFlip | 94.35 | 89.46 |[weights](https://drive.google.com)|
-| DeepLabv3+ | Focal Loss | No Aug | 94.35 | 89.46 |[weights](https://drive.google.com)|
-| Unet++ | Focal Loss | Random BC | 94.35 | 89.46 |[weights](https://drive.google.com)|
-| DeepLabv3+ | Dice Loss | HFlip | 94.35 | 89.46 |[weights](https://drive.google.com)|
+| Unet++ | Focal Loss | No Aug | 0.1252 | 0.9734 | 0.8052 | 0.8804 | 0.8805 | 0.8803 | [weights](https://drive.google.com)|
+| Unet++ | Focal Loss | HFlip | 0.1253 | 0.9728 | 0.8008 | 0.8776 | 0.8778 | 0.8774 | [weights](https://drive.google.com)|
+| DeepLabv3+ | Focal Loss | No Aug | 0.1255 | 0.9720 | 0.7959 | 0.8739 | 0.8744 | 0.8734 | [weights](https://drive.google.com)|
+| Unet++ | Focal Loss | Random BC | 0.1256 | 0.9717 | 0.7938 | 0.8725 | 0.8727 | 0.8723 | [weights](https://drive.google.com)|
+| DeepLabv3+ | Dice Loss | HFlip | 0.1292 | 0.9714 | 0.7928 | 0.8714  | 0.8717 | 0.8711 | [weights](https://drive.google.com)|
 
 The dataset and the weights can be found [here](https://drive.google.com).
 
