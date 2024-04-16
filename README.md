@@ -1,4 +1,4 @@
-![image](https://github.com/RSandAI/HexaLCSeg/assets/152481826/0b25ff7e-40b2-45db-afd5-d3d28404a96b)# HexaLCSeg Benchmark Dataset
+# HexaLCSeg Benchmark Dataset
 
 This study aims to emphasize the importance of historical land cover maps and introduce a new benchmark dataset derived from very high-resolution historical Hexagon (KH-9) reconnaissance satellite images for use in deep learning-based image segmentation tasks. Our HexaLCSeg dataset comprises high-resolution monochromatic Hexagon images from the 1970s and 1980s covering Turkish and Bulgarian territories, encompassing a large geographic area
 
