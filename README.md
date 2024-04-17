@@ -33,13 +33,13 @@ Models, Metric Results and Weights
 ---------------------
 
 
-| Model No     | Architecture | Loss Function | Augmentation | Loss   | Accuracy | IoU    | F-1 Score | Precision | Recall  | Weights                               |
-|:------------:|:------------:|:-------------:|:------------:|:------:|:--------:|:------:|:---------:|:---------:|:-------:|:-------------------------------------:|
-|   Model 1    |   U-Net++    |  Focal Loss   |    No Aug    | 0.1252 |  0.9734  | 0.8052 |   0.8804  |   0.8805  | 0.8803  | ***[download](https://drive.google.com)***  |
-|   Model 2    |   U-Net++    |  Focal Loss   |    HFlip     | 0.1253 |  0.9728  | 0.8008 |   0.8776  |   0.8778  | 0.8774  | ***[download](https://drive.google.com)***  |
-|   Model 3    | DeepLabv3+   |  Focal Loss   |    No Aug    | 0.1255 |  0.9720  | 0.7959 |   0.8739  |   0.8744  | 0.8734  | ***[download](https://drive.google.com)***   |
-|   Model 4    |   U-Net++    |  Focal Loss   |  Random BC   | 0.1256 |  0.9717  | 0.7938 |   0.8725  |   0.8727  | 0.8723  | ***[download](https://drive.google.com)***   |
-|   Model 5    | DeepLabv3+   |   Dice Loss   |    HFlip     | 0.1292 |  0.9714  | 0.7928 |   0.8714  |   0.8717  | 0.8711  | ***[download](https://drive.google.com/drive/folders/1clWXjonotiCMqC_6F9D0xVJUXZRrnI10?usp=drive_link)***   |
+| Model No     | Architecture | Loss Function | Augmentation | Loss   | Accuracy | IoU    | F-1 Score | Precision | Recall  
+|:------------:|:------------:|:-------------:|:------------:|:------:|:--------:|:------:|:---------:|:---------:|:-------:|
+|   Model 1    |   U-Net++    |  Focal Loss   |    No Aug    | 0.1252 |  0.9734  | 0.8052 |   0.8804  |   0.8805  | 0.8803  |
+|   Model 2    |   U-Net++    |  Focal Loss   |    HFlip     | 0.1253 |  0.9728  | 0.8008 |   0.8776  |   0.8778  | 0.8774  |
+|   Model 3    | DeepLabv3+   |  Focal Loss   |    No Aug    | 0.1255 |  0.9720  | 0.7959 |   0.8739  |   0.8744  | 0.8734  |
+|   Model 4    |   U-Net++    |  Focal Loss   |  Random BC   | 0.1256 |  0.9717  | 0.7938 |   0.8725  |   0.8727  | 0.8723  |
+|   Model 5    | DeepLabv3+   |   Dice Loss   |    HFlip     | 0.1292 |  0.9714  | 0.7928 |   0.8714  |   0.8717  | 0.8711  |
 
 ***The dataset and the weights can be found [here](https://drive.google.com).***
 
