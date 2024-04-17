@@ -22,6 +22,8 @@ Additionally, a new sub-class for the trees, named Permanent Cropland is defined
 Dataset
 ---------------------
 
+![alt text](Patch_Samples.png)
+
 ***The dataset can be found [here](https://drive.google.com/drive/folders/1AFr_BmqigvoyIRBMMseiTRDteJY1Jr2C?usp=sharing).***
 
 Methodology
