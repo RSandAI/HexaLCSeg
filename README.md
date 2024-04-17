@@ -22,6 +22,8 @@ Additionally, a new sub-class for the trees, named Permanent Cropland is defined
 Dataset
 ---------------------
 
+***The dataset can be found [here](https://drive.google.com/drive/folders/1AFr_BmqigvoyIRBMMseiTRDteJY1Jr2C?usp=sharing).***
+
 Methodology
 ---------------------
 In our study, we employed the geographic object-based image analysis (GEOBIA) approach to generate accurate land cover (LC) maps, which serve as the ground truth masks for our dataset. 
@@ -41,11 +43,13 @@ Models, Metric Results and Weights
 | Model 4         |   U-Net++    |  Focal Loss   |  Random BC   | 0.1256 |  0.9717  | 0.7938 |   0.8725  |   0.8727  | 0.8723  |
 | Model 5         | DeepLabv3+   |   Dice Loss   |    HFlip     | 0.1292 |  0.9714  | 0.7928 |   0.8714  |   0.8717  | 0.8711  |
 
-***The dataset and the weights can be found [here](https://drive.google.com).***
+***The pre-trained models and weights can be found [here](https://drive.google.com/drive/folders/1ujpK2IrRCaANYtHfgHqpzk-kIK55Hmit?usp=drive_link).***
+
+
 
 Sample Outputs
 ---------------------
-**Original images, ground truth masks and prediction masks of our 5 best models are below.**
+**Original images, ground truth masks and prediction masks of our models are below.**
 
 
 ![alt text](Visual_Results.png)
