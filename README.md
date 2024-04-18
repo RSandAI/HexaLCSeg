@@ -37,13 +37,17 @@ Models, Metric Results and Weights
 ---------------------
 
 
-| Model No          | Architecture | Loss Function | Augmentation | Loss   | Accuracy | IoU    | F-1 Score | Precision | Recall  
-|:-----------------:|:------------:|:-------------:|:------------:|:------:|:--------:|:------:|:---------:|:---------:|:-------:|
-| Model 1         |   U-Net++    |  Focal Loss   |    No Augmentation    | 0.1252 |  0.9734  | 0.8052 |   0.8804  |   0.8805  | 0.8803  |
-| Model 2         |   U-Net++    |  Focal Loss   |    Horizontal Flip     | 0.1253 |  0.9728  | 0.8008 |   0.8776  |   0.8778  | 0.8774  |
-| Model 3         | DeepLabv3+   |  Focal Loss   |    No Augmentation    | 0.1255 |  0.9720  | 0.7959 |   0.8739  |   0.8744  | 0.8734  |
-| Model 4         |   U-Net++    |  Focal Loss   |  Random BC   | 0.1256 |  0.9717  | 0.7938 |   0.8725  |   0.8727  | 0.8723  |
-| Model 5         | DeepLabv3+   |   Dice Loss   |    Horizontal Flip     | 0.1292 |  0.9714  | 0.7928 |   0.8714  |   0.8717  | 0.8711  |
+| Model No          | Architecture | Loss Function |      Augmentation      | Loss   | Accuracy | IoU    | F-1 Score | Precision | Recall  
+|:-----------------:|:------------:|:-------------:|:----------------------:|:------:|:--------:|:------:|:---------:|:---------:|:-------:|
+| Model 1           |   U-Net++    |  Focal Loss   |    No Augmentation     | 0.1252 |  0.9734  | 0.8052 |   0.8804  |   0.8805  | 0.8803  | 
+| Model 2           |   U-Net++    |  Focal Loss   |    Horizontal Flip     | 0.1253 |  0.9728  | 0.8008 |   0.8776  |   0.8778  | 0.8774  | 
+| Model 3           | DeepLabv3+   |  Focal Loss   |    No Augmentation     | 0.1255 |  0.9720  | 0.7959 |   0.8739  |   0.8744  | 0.8734  | 
+| Model 4           |   U-Net++    |  Focal Loss   |    Random BC           | 0.1256 |  0.9717  | 0.7938 |   0.8725  |   0.8727  | 0.8723  | 
+| Model 5           | DeepLabv3+   |   Dice Loss   |    Horizontal Flip     | 0.1292 |  0.9714  | 0.7928 |   0.8714  |   0.8717  | 0.8711  | 
+| Model 6           | DeepLabv3+   |   Dice Loss   |    No Augmentation     | 0.1307 |  0.9711  | 0.7906 |   0.8699  |   0.8702  | 0.8697  | 
+| Model 7           | DeepLabv3+   |   Focal Loss  |    Horizontal Flip     | 0.1257 |  0.9711  | 0.7897 |   0.8698  |   0.8704  | 0.8692  | 
+| Model 8           | DeepLabv3+   |   Focal Loss  |    Random BC           | 0.1259 |  0.9704  | 0.7871 |   0.8667  |   0.8673  | 0.8662  | 
+| Model 9           | DeepLabv3+   |   Dice Loss   |    Random BC           | 0.1401 |  0.9691  | 0.7793 |   0.8608  |  0.8612   | 0.8604  | 
 
 ***The pre-trained models and weights can be found [here](https://drive.google.com/drive/folders/1ujpK2IrRCaANYtHfgHqpzk-kIK55Hmit?usp=drive_link).***
 
