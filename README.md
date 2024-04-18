@@ -24,7 +24,7 @@ We split our dataset into 70% training (7000 patches), 15% validation (1500 patc
 
 ![alt text](Patch_Samples.png)
 
-***The dataset can be found [here](https://drive.google.com/drive/folders/1AFr_BmqigvoyIRBMMseiTRDteJY1Jr2C?usp=sharing).***
+***The dataset can be downloaded [here](https://drive.google.com/drive/folders/1AFr_BmqigvoyIRBMMseiTRDteJY1Jr2C?usp=sharing).***
 
 Methodology
 ---------------------
