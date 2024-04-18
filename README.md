@@ -22,8 +22,6 @@ Dataset
 The HexaLCSeg dataset comprises eight panchromatic images accompanied by corresponding 3-channel RGB Ground Truth Masks, all with 8-bit radiometric resolution and a spatial resolution of 1 meter. The dataset is organized into a total of 10,000 patches, each sized at 256x256 pixels. 
 We split our dataset into 70% training (7000 patches), 15% validation (1500 patches), and 15% testing (1500 patches). Samples of our dataset are below.
 
-***The dataset can be downloaded [here](https://drive.google.com/drive/folders/1AFr_BmqigvoyIRBMMseiTRDteJY1Jr2C?usp=sharing).***
-
 ![alt text](Patch_Samples.png)
 
 ***The dataset can be found [here](https://drive.google.com/drive/folders/1AFr_BmqigvoyIRBMMseiTRDteJY1Jr2C?usp=sharing).***
