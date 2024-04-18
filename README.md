@@ -3,9 +3,6 @@
 
 This study aims to emphasize the importance of historical land cover maps and introduce a new benchmark dataset derived from very high-resolution historical Hexagon (KH-9) reconnaissance satellite images for use in deep learning-based image segmentation tasks. Our HexaLCSeg dataset comprises high-resolution monochromatic Hexagon images from the 1970s and 1980s covering Turkish and Bulgarian territories, encompassing a large geographic area
 
-The HexaLCSeg dataset comprises eight panchromatic images accompanied by corresponding 3-channel RGB Ground Truth Masks, all with 8-bit radiometric resolution and a spatial resolution of 1 meter. The dataset is organized into a total of 10,000 patches, each sized at 256x256 pixels. 
-We split our dataset into 70% training (7000 patches), 15% validation (1500 patches), and 15% testing (1500 patches). 
-
 The dataset, related source code, and pre-trained models are available below.
 
 
@@ -21,6 +18,9 @@ Additionally, a new sub-class for the trees, named Permanent Cropland is defined
 
 Dataset
 ---------------------
+
+The HexaLCSeg dataset comprises eight panchromatic images accompanied by corresponding 3-channel RGB Ground Truth Masks, all with 8-bit radiometric resolution and a spatial resolution of 1 meter. The dataset is organized into a total of 10,000 patches, each sized at 256x256 pixels. 
+We split our dataset into 70% training (7000 patches), 15% validation (1500 patches), and 15% testing (1500 patches). Samples of our dataset are below.
 
 ![alt text](Patch_Samples.png)
 
@@ -55,7 +55,7 @@ Models, Metric Results and Weights
 
 Sample Outputs
 ---------------------
-**Original images, ground truth masks and prediction masks of our models are below.**
+**Original images, ground truth masks and prediction masks of our 5 best models are below.**
 
 
 ![alt text](Visual_Results.png)
