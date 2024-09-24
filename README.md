@@ -76,7 +76,7 @@ Citation
 ---------------------
 Please kindly cite our paper if this code and the dataset used in the study are useful for your research.
 
-Sertel, E., Kabadayı, M.E, Sengul, G. S. & Tumer, I. N, (2024). HexaLCSeg: A Historical Benchmark Dataset from Hexagon Satellite Images for Land Cover Segmentation, IEEE Geoscience and Remote Sensing Magazine, Accepted.
+E. Sertel, M. E. Kabadayi, G. S. Sengul and I. N. Tumer, "HexaLCSeg: A historical benchmark dataset from Hexagon satellite images for land cover segmentation [Software and Data Sets]," in IEEE Geoscience and Remote Sensing Magazine, vol. 12, no. 3, pp. 197-206, Sept. 2024, doi: 10.1109/MGRS.2024.3394248.
 
 
 
