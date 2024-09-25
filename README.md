@@ -74,7 +74,7 @@ Apart from main data science libraries, RS-specific libraries such as GDAL, rast
 
 Citation
 ---------------------
-Please kindly cite our paper if this code and the dataset used in the study are useful for your research.
+Please kindly cite our [paper](https://ieeexplore.ieee.org/document/10685151) if this code and the dataset used in the study are useful for your research.
 
 E. Sertel, M. E. Kabadayi, G. S. Sengul and I. N. Tumer, "HexaLCSeg: A historical benchmark dataset from Hexagon satellite images for land cover segmentation [Software and Data Sets]," in IEEE Geoscience and Remote Sensing Magazine, vol. 12, no. 3, pp. 197-206, Sept. 2024, doi: 10.1109/MGRS.2024.3394248.
 
